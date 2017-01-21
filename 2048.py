@@ -15,6 +15,7 @@ def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     if reverse==True:pop_from=-1
     for y in range(4):
         for x in range(4):
+	    print ("Is this how you print in python?")
             if y in r and x in c:f[y][x]=liste.pop(pop_from)
     return f
 
